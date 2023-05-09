@@ -1,0 +1,169 @@
+I'm Elijah, most people call me Eli. I'm a lifelong lover of learning, and for as long as I can remember, technology has been
+one of my primary interests and hobbies. I fell in love with my dad's preY2K Compaq desktop when I was 7 years old, and since the
+age of 12 or 13, every computer I've used, and many computers my friends use, are machines that I've built.
+
+I've worn a lot of hats in my professional life, from food service and skilled trades to management and teaching. Like many
+people, my prior work was displaced by the pandemic, which was what gave me the intitiative to turn my passion into
+a profession, grab some certifications, and move into IT, where I've worked for the last year.
+
+Moving forward, Tech Elevator was a great opportunity for me to complement my hardware expertise with software skills,
+and I'd love the ability to grow my abilities, find my perfect fit in tech, and add my value to a great company.
+
+
+The 3 pillar principles of OOP (Polymorphism, Encapsulation, and Inheritance) - for each of these be prepared to define them, give an example of their usage, and, most importantly, be able to explain why they are important.
+Polymorphism, an object extending another. Is-a relationship. ex: A cat is a animal, a honda is a car
+encapsulation, classes working within others. When you power on a computer, you just press a button and wait for it to turn on, the other operations are encapsulated from you.
+inheritance, classes deriving from others. extends relationship. A cat may or may not 'extend' animal, but  a class that defines a kitten could extend cat.
+
+
+REPL read evaluate print loop
+
+What is the difference between a for and a foreach loop? Why use one over the other?
+for loops are better when you know how many iterations you will use, a for loops variable is an integer. perform n times
+for each loops are good for iterating over objects like arrays. repeatws staements for each object. perform under n condition
+
+Explain the relationship between a class and an object.
+a class determines the properties and function of an object
+objects are instances of classes
+
+What are the key principles of Object-Oriented Programming?
+abstraction, enccapsulation, polymorphism, inheritance
+
+How does a reference datatype differ from a primitive?
+primitive values are stored directly/stack, reference values are stored in memory/heap
+
+
+What is the difference between overriding and overloading a method?
+override: method is the same as parent class, but behavior is separate
+overload: method exists in same class with the same name, but different parameters
+
+What's an abstract class and how does it differ from an interface?
+both are used for abstraction, neither can be instantiated
+abstract classes are for classes which are related, they can hold their own instance variables
+an interface cannot hold variables, it is just a rubric for classes to utilize. best for classes that are unrelated but share common functions
+
+Explain the difference between a primary key and a foreign key in a relational database.
+Primary keys enforce that data in a column is unique
+A foreign key is a column that links data between tables
+
+Give an example when you've used inheritance in a past project.
+vending machine project
+
+What is MVC? What does each part represent?
+model-view-controller
+model is lowest level, encompasses the under the hood aspects that are abstracted from the user
+controller represents the user request, ex: interface
+view represents look and feel, ex gui
+
+What part receives the request from the user?
+Controller
+
+What does it mean for a request to be stateless?
+resolved independently without need to identify requests/use information from previous requests
+
+Why is HTTP stateless?
+HTTP is stateless because requests are handled independently. Other HTTP requests do not use information from isolated requests,
+and the connection between client and host ends once the request is complete.
+
+What is the difference between HTTP and HTTPS?
+HTTPS uses SSL to encrypt requests and responses.
+
+What is the difference between POST and GET?
+GET requests data
+POST submits data
+
+What is a top-level domain?
+Highest level of the DNS hierarchy. node represented by the . affix on website. ex: .com, .gov, .edu
+
+What is DNS?
+Domain name system, structure that maps names and addresses via nodes. ex: en.wikipedia.org
+
+Explain Client/Server
+client-server: server provides data to other networked computers
+client/server, central destination (server) provides data to many users (clients)
+
+What is Serialization?
+converting object into data to be stored in memory, deserialization is the reverse process, recreating object state from memory.
+Saving vs reading a file.
+
+What is the difference between POST and PUT
+POST updates the location with a new resource, PUT replaces the selected resource.
+
+What is the Message Body?
+Data submitted by HTTP transaction
+
+Can a GET request have a Message Body?
+GET requests do not have bodies, all required info needs to be in the URL or a header
+Technically a url has no size limit, but keep to under 8kb.
+
+What is the Query String?
+Input in URL that gets specific info/response from destination.
+
+What is a request header?
+Passes additional information from client to server
+
+Interfaces vs Superclasses - be prepared to describe both and why you would use each.
+Class can have 1 super, but any number of interfaces.
+Interfaces are best used to define contracts (signatures for classes to implement)
+Extending a superclass should be used to define a default behavior of a class and its methods.
+
+Abstract classes - be prepared to define what they are and when to use them, also why you might choose an abstract class over an interface/superclass combination
+A class that cannot be instantiated but can be extended.
+
+Explain to me the most interesting program you've worked on
+
+Walk me through how you validate that your code works as expected?
+Through unit tests or through adding logic to my code that allows me to verify I'm getting the expected results.
+
+What is a block level element?
+An element that occupies all the horizontal space of the container.
+
+What is the most recent JavaScript concept or framework you've taught yourself?
+I'm still learning JavaScript, but may work in the vue or React frameworks for independent projects. Still looking into options and possibilities
+
+Describe what happens when a browser requests a web page.
+Locates IP > initiates connection > sends HTTP request > handshake > server handles request > server responds > connection terminates
+
+What is the difference between HTML, CSS, and JavaScript?
+
+
+What does Model, View, Controller, represent in MVC?
+
+
+Separation of concerns
+
+git branch versioning
+
+Left/right join
+in/out join
+
+Gather information
+Searchin documents/google for reference 
+
+Real estate
+Users/properties
+want visitor to be able to save properties
+
+Implement
+
+Database calls are slow by default, minimize database hits
+
+Is there anything about my resume or background that you have more questions about?
+I'm very interested in your company, is there a business card or contact you could leave me, or can we connect on linkedin?
+
+
+
+Functional Automated Testing
+Java 
+JavaScript
+API microservice
+Golang
+CICD
+JIRA
+Bamboo
+Jenkins
+Cucumber
+CouchDB
+SQL
+Kafka
+
