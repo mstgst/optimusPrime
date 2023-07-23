@@ -14,11 +14,11 @@ Linux)
 	;;
 
 CYGWIN* | MINGW32* | MSYS* | MINGW*)
-	echo "OS unsupported (submit an issue on GitHub!)"
+	echo "OS unsupported"
 	;;
 
 *)
-	echo "OS unsupported (submit an issue on GitHub!)"
+	echo "OS unsupported"
 	;;
 esac
 
